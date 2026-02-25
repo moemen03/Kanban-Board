@@ -2,8 +2,6 @@
 
 A Kanban-style task management board built with **Next.js**, **Material UI**, and **React Query**, backed by a simple **JSON Server** API.
 
-![Stack](https://img.shields.io/badge/Next.js-16-black) ![MUI](https://img.shields.io/badge/MUI-7-blue) ![React Query](https://img.shields.io/badge/React_Query-5-red)
-
 ---
 
 ## Features
