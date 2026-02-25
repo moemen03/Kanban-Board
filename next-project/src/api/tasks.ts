@@ -1,6 +1,6 @@
 import type { Task, TaskColumn, TaskPriority } from "../types";
 
-const BASE = "http://localhost:4000";
+const BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
 
 export const getPriority = (task: Task): TaskPriority => task.priority ?? "medium";
 
